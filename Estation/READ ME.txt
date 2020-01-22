@@ -1,0 +1,6 @@
+This code is developed to the implentation to an Arduino UNO.
+The sensors installed are:
+- Temperature sensor V1.2
+- Anemometer
+- Rain gauge
+- Vane wind
