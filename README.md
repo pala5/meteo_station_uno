@@ -18,7 +18,11 @@ Android and iOS.
 
 --- LINKS ---
 Get started now: https://blynk.io/en/getting-started
+
 Meteo station (product): https://www.sparkfun.com/products/8942
+
 Meteo station (hookup guide): https://learn.sparkfun.com/tutorials/weather-meter-hookup-guide?_ga=2.241424385.245433083.1579691653-1720560228.1577174229
+
 Temperature sensor (product): http://wiki.seeedstudio.com/Grove-Temperature_Sensor_V1.2/
+
 Lolin D1 mini Pro: https://wiki.wemos.cc/products:d1:d1_mini_pro
