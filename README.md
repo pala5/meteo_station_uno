@@ -7,11 +7,19 @@ The meteo station frame includes:
 - Wind vane
 - Rain gauge
 
-We already include a temperature sensor: Temperature sensor v1.2 
+We already include a temperature sensor:
+- Temperature sensor v1.2
+
 We use the following electronic devices:
 
 - Arduino UNO (Master): It reads the data collected by the sensors and send it to the slave via the RX and TX pins.
 - Lolin D1 mini Pro (Slave): It receives the data from the Master and send it via WiFi to an IoT app, Blynk.
+
+In this repositorie there are two files:
+
+- Estation: Which incldues the Arduino UNO (master) code. This code reads the data received by the different sensors and performs the necessary operations to transform the analog inputs and pulses into physical data. It includes the SoftwareSerial library, to establish the Serial Comunication between Rx and Tx I/O pins.
+
+- Serial_communication_receiver:  Which includes the Lolin D1 mini PRO (slave) code. This code receives the data from the master, then analize it and send it via WiFi to the Blynk application. It includes the Blynk and the ESP8266Wifi libraries.
 
 You must install the Blynk Library for your WiFi device and download the Blynk application in your mobile phone, it's available for
 Android and iOS.
