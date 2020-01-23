@@ -26,6 +26,8 @@ Android and iOS.
 
 --- LINKS ---
 
+Meteo Station guide: https://docs.google.com/presentation/d/1sDDvMkqmOyQTjW4TWZG4k4KzVs6vggXtB96XupOpIVQ/edit?usp=sharing
+
 Get started now: https://blynk.io/en/getting-started
 
 Meteo station (product): https://www.sparkfun.com/products/8942
